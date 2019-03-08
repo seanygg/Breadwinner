@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@android:color/background_light">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_popular_menus"
+            android:icon="@drawable/ic_popular_menus"
+            android:title="Popular Near You" />
+        <item
+            android:id="@+id/nav_active"
+            android:icon="@drawable/ic_active_orders"
+            android:title="Active Orders" />
+
+
+    </group>
+
+    <group android:title="Personal">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account"
+                android:title="Account Details" />
+            <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/ic_history"
+                android:title="Order History" />
+            <item
+                android:id="@+id/personal_listing"
+                android:icon="@drawable/ic_history"
+                android:title="My Listings" />
+        </menu>
+    </group>
+</menu>
